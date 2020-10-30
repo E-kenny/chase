@@ -424,6 +424,7 @@ body{
     .h4-flex{
         display: flex;
         width: 45%;
+        column-gap: 3%;
     }
     #third-flex{
         display: flex;
@@ -437,17 +438,19 @@ body{
         flex-flow: column wrap;
         background-color: white;
         height: 50%;
+        position: relative;
+        top: 20%;
     
     }
     #box{
         background-color: goldenrod;
-        margin:4% 3% 0% 0%;
+        margin:0% 3% 0% 0%;
         width: 40%;
-        padding: 1% 2% 1% 3%;
+        padding: 2% 2% 1% 3%;
     }
     #arrow{
         background-color: black;
-        margin:17% 0% 0% -75%;
+        margin:13% 0% 0% -75%;
         color: white;
         width: 55%;
         padding: 1% 2% 1% 3%;
@@ -460,10 +463,10 @@ body{
     #flex5{
         display: flex;
         flex-flow: row wrap;
-        width:100% ;
         justify-content: space-between ;
         padding-bottom: 0px;
-        color: white;
+        color: black;
+        background-color: white;
     }
     #flex6{
         display: flex;
